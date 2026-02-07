@@ -12,7 +12,8 @@
 <p align="center">
   <a href="https://github.com/vauchi/"><img src="https://img.shields.io/github/stars/vauchi/vauchi?style=flat&color=89b4fa&labelColor=1e1e2e" alt="Stars"></a>
   <a href="https://github.com/vauchi/.github/blob/main/LICENSE"><img src="https://img.shields.io/github/license/vauchi/vauchi?style=flat&color=94e2d5&labelColor=1e1e2e" alt="License"></a>
-  <a href="https://github.com/sponsors/vauchi"><img src="https://img.shields.io/badge/sponsor-💜-cba6f7?style=flat&labelColor=1e1e2e" alt="Sponsor"></a>
+  <a href="https://liberapay.com/Vauchi/"><img src="https://img.shields.io/badge/sponsor-💜-cba6f7?style=flat&labelColor=1e1e2e" alt="Sponsor"></a>
+  <!--<a href="https://github.com/sponsors/vauchi"><img src="https://img.shields.io/badge/sponsor-💜-cba6f7?style=flat&labelColor=1e1e2e" alt="Sponsor"></a>-->
 </p>
 
 ---
@@ -56,7 +57,8 @@
 
 Vauchi is community-funded. No VC money, no data harvesting.
 
-<a href="https://github.com/sponsors/vauchi">
+<!--<a href="https://github.com/sponsors/vauchi">-->
+  <a href="https://liberapay.com/Vauchi/">
   <img src="https://img.shields.io/badge/Sponsor_on_GitHub-💜_Become_a_sponsor-cba6f7?style=for-the-badge&labelColor=1e1e2e" alt="Sponsor on GitHub">
 </a>
 
