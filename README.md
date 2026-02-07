@@ -1,21 +1,72 @@
-# Vauchi
+<h1 align="center">
+  <code>vauchi</code>
+</h1>
 
-A privacy-focused platform for exchanging contact information that stays up-to-date.
+<h3 align="center">Privacy-focused contact sharing</h3>
 
-## The Problem
+<p align="center">
+  Exchange contact cards in person. Update your info anytime.<br>
+  End-to-end encrypted. No accounts. No tracking.
+</p>
 
-When you exchange contact details with someone, that information becomes outdated the moment either of you changes your phone number, email, social media, or address. You end up with stale contacts, and people lose touch.
+<p align="center">
+  <a href="https://github.com/vauchi/.github"><img src="https://img.shields.io/github/stars/vauchi/.github?style=flat&color=89b4fa&labelColor=1e1e2e" alt="Stars"></a>
+  <a href="https://github.com/vauchi/.github/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-%20%20GNU%20GPLv3%20-green" alt="License"></a>
+  <a href="https://liberapay.com/Vauchi/"><img src="https://img.shields.io/badge/sponsor-💜-cba6f7?style=flat&labelColor=1e1e2e" alt="Sponsor"></a>
+  <!--<a href="https://github.com/sponsors/vauchi"><img src="https://img.shields.io/badge/sponsor-💜-cba6f7?style=flat&labelColor=1e1e2e" alt="Sponsor"></a>-->
+</p>
 
-Worse, social media platforms keep users captive by implicitly threatening them with losing their contacts if they leave. Your relationships become locked inside platforms you may no longer want to use.
+---
 
-## The Solution
+### How it works
 
-Vauchi lets you exchange "living" contact cards. When you update your information, everyone you've shared it with automatically receives the update - securely and privately.
+1. **Meet someone** → Scan their QR code
+2. **Stay connected** → Update your card anytime, they see the changes
+3. **Stay private** → End-to-end encrypted, zero-knowledge relay
 
-## Key Principles
+### Why Vauchi?
 
-- **In-Person Exchange** - Contact cards can only be exchanged when physically together (QR code scan)
-- **Selective Sharing** - Control which contacts see which fields (work email vs personal)
-- **No Messages** - This is not a messenger; it only syncs contact information
-- **End-to-End Encrypted** - No server can read your data
-- **Decentralized** - Relay servers only pass encrypted blobs; they have zero knowledge
+- **No accounts** — Your device is your identity
+- **No tracking** — No analytics, no telemetry, no ads
+- **No trust required** — We can't read your data, even if we wanted to
+- **Open source** — Verify our claims yourself
+
+### Tech stack
+
+| Component | Technology |
+|-----------|------------|
+| Core | Rust, Signal Protocol (X3DH + Double Ratchet) |
+| iOS | SwiftUI |
+| Android | Kotlin/Compose |
+| Desktop | Tauri + SolidJS |
+| Crypto | `ring` (audited, no OpenSSL) |
+
+### Repositories
+
+| Repo | Description |
+|------|-------------|
+| [vauchi](https://github.com/vauchi/vauchi) | Meta-repo, documentation, roadmap |
+| [core](https://github.com/vauchi/core) | Core library + mobile bindings |
+| [relay](https://github.com/vauchi/relay) | Zero-knowledge WebSocket relay |
+| [cli](https://github.com/vauchi/cli) | Command-line interface |
+| [desktop](https://github.com/vauchi/desktop) | Desktop app (Tauri) |
+| [android](https://github.com/vauchi/android) | Android app |
+| [ios](https://github.com/vauchi/ios) | iOS app |
+
+### Support the project
+
+Vauchi is community-funded. No VC money, no data harvesting.
+
+<!--<a href="https://github.com/sponsors/vauchi">-->
+  <a href="https://liberapay.com/Vauchi/">
+  <img src="https://img.shields.io/badge/Sponsor_on_GitHub-💜_Become_a_sponsor-cba6f7?style=for-the-badge&labelColor=1e1e2e" alt="Sponsor on GitHub">
+</a>
+
+---
+
+<p align="center">
+  <a href="https://vauchi.app">Website</a> •
+  <a href="https://github.com/vauchi/vauchi/blob/main/PRINCIPLES.md">Principles</a> •
+  <a href="https://github.com/vauchi/vauchi/blob/main/ROADMAP.md">Roadmap</a> •
+  <a href="https://github.com/vauchi/vauchi/blob/main/CONTRIBUTING.md">Contributing</a>
+</p>
