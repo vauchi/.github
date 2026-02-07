@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/vauchi/.github"><img src="https://img.shields.io/github/stars/vauchi/vauchi?style=flat&color=89b4fa&labelColor=1e1e2e" alt="Stars"></a>
+  <a href="https://github.com/vauchi/.github"><img src="https://img.shields.io/github/stars/vauchi/.gitlab?style=flat&color=89b4fa&labelColor=1e1e2e" alt="Stars"></a>
   <a href="https://github.com/vauchi/.github/blob/main/LICENSE"><img src="https://img.shields.io/github/license/vauchi/vauchi?style=flat&color=94e2d5&labelColor=1e1e2e" alt="License"></a>
   <a href="https://liberapay.com/Vauchi/"><img src="https://img.shields.io/badge/sponsor-💜-cba6f7?style=flat&labelColor=1e1e2e" alt="Sponsor"></a>
   <!--<a href="https://github.com/sponsors/vauchi"><img src="https://img.shields.io/badge/sponsor-💜-cba6f7?style=flat&labelColor=1e1e2e" alt="Sponsor"></a>-->
