@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: 2026 Mattia Egloff <mattia.egloff@pm.me>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+include:
+  - project: 'vauchi/scripts'
+    ref: main
+    file:
+      - '/ci-templates/reuse.yml'
+      - '/ci-templates/badges.yml'
+
+stages:
+  - lint
+  - deploy
+
+# ============================================================
+# Deploy Stage — Badge Pages
+# ============================================================
+
+pages:
+  extends: .badges-pages
