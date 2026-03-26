@@ -21,6 +21,10 @@ SPDX-License-Identifier: GPL-3.0-or-later
   <a href="https://liberapay.com/Vauchi/donate"><img src="https://img.shields.io/badge/donate-💛-f9e2af?style=flat&labelColor=1e1e2e" alt="Liberapay"></a>
 </p>
 
+<p align="center">
+  📦 Canonical source: <a href="https://gitlab.com/vauchi">GitLab</a> — GitHub is a read-only mirror
+</p>
+
 ---
 
 ### How it works
@@ -41,22 +45,55 @@ SPDX-License-Identifier: GPL-3.0-or-later
 | Component | Technology |
 |-----------|------------|
 | Core | Rust, Signal Protocol (X3DH + Double Ratchet) |
-| iOS | SwiftUI |
-| Android | Kotlin/Compose |
-| Desktop | Tauri + SolidJS |
-| Crypto | `ring` (audited, no OpenSSL) |
+| iOS / macOS | SwiftUI |
+| Android | Kotlin / Compose |
+| Windows | WinUI 3 |
+| Linux | GTK4, Qt6 |
+| Crypto | RustCrypto (`ed25519-dalek`, `x25519-dalek`, `sha2`, `hmac`, `hkdf`, `chacha20poly1305`) |
+| TLS | `aws-lc-rs` (via rustls) |
 
 ### Repositories
 
+#### Core & Infrastructure
+
 | Repo | Description |
 |------|-------------|
-| [vauchi](https://github.com/vauchi/vauchi) | Meta-repo, documentation, roadmap |
-| [core](https://github.com/vauchi/core) | Core library + mobile bindings |
-| [relay](https://github.com/vauchi/relay) | Zero-knowledge WebSocket relay |
+| [core](https://github.com/vauchi/core) | Crypto, protocols, data models (Rust) |
+| [relay](https://github.com/vauchi/relay) | Zero-knowledge WebSocket relay server |
+| [ohttp-relay](https://github.com/vauchi/ohttp-relay) | Oblivious HTTP relay |
+| [e2e](https://github.com/vauchi/e2e) | End-to-end integration tests |
+
+#### Apps
+
+| Repo | Description |
+|------|-------------|
 | [cli](https://github.com/vauchi/cli) | Command-line interface |
-| [desktop](https://github.com/vauchi/desktop) | Desktop app (Tauri) |
-| [android](https://github.com/vauchi/android) | Android app |
-| [ios](https://github.com/vauchi/ios) | iOS app |
+| [tui](https://github.com/vauchi/tui) | Terminal user interface |
+| [android](https://github.com/vauchi/android) | Native Android app |
+| [ios](https://github.com/vauchi/ios) | Native iOS app |
+| [macos](https://github.com/vauchi/macos) | Native macOS desktop app |
+| [windows](https://github.com/vauchi/windows) | Native Windows desktop app |
+| [linux-gtk](https://github.com/vauchi/linux-gtk) | Native Linux desktop app (GTK) |
+| [linux-qt](https://github.com/vauchi/linux-qt) | Native Linux desktop app (Qt) |
+| [web-demo](https://github.com/vauchi/web-demo) | Browser-based WASM demo |
+
+#### Platform Bindings
+
+| Repo | Description |
+|------|-------------|
+| [vauchi-platform-swift](https://github.com/vauchi/vauchi-platform-swift) | Swift Package (iOS/macOS) |
+
+#### Content & Docs
+
+| Repo | Description |
+|------|-------------|
+| [docs](https://github.com/vauchi/docs) | Public documentation (docs.vauchi.app) |
+| [website](https://github.com/vauchi/website) | Landing page (vauchi.app) |
+| [features](https://github.com/vauchi/features) | Gherkin BDD scenarios |
+| [locales](https://github.com/vauchi/locales) | Translations (i18n) |
+| [themes](https://github.com/vauchi/themes) | UI theme definitions |
+| [assets](https://github.com/vauchi/assets) | Brand assets and logos |
+| [scripts](https://github.com/vauchi/scripts) | Shared CI templates and dev tools |
 
 ### Support the project
 
@@ -74,7 +111,6 @@ Vauchi is community-funded. No VC money, no data harvesting.
 
 <p align="center">
   <a href="https://vauchi.app">Website</a> •
-  <a href="https://github.com/vauchi/vauchi/blob/main/PRINCIPLES.md">Principles</a> •
-  <a href="https://github.com/vauchi/vauchi/blob/main/ROADMAP.md">Roadmap</a> •
-  <a href="https://github.com/vauchi/vauchi/blob/main/CONTRIBUTING.md">Contributing</a>
+  <a href="https://docs.vauchi.app/about/principles/">Principles</a> •
+  <a href="https://docs.vauchi.app/developers/contributing/">Contributing</a>
 </p>
