@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: 2026 Mattia Egloff <mattia.egloff@pm.me>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+version = 1
+
+[[annotations]]
+path = ".markdownlint.json"
+SPDX-FileCopyrightText = "2026 Mattia Egloff <mattia.egloff@pm.me>"
+SPDX-License-Identifier = "GPL-3.0-or-later"
