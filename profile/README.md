@@ -31,7 +31,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
 
 1. **Meet someone** → Scan their QR code
 2. **Stay connected** → Update your card anytime, they see the changes
-3. **Stay private** → End-to-end encrypted, zero-knowledge relay
+3. **Stay private** → End-to-end encrypted, oblivious privacy-preserving relay
 
 ### Why Vauchi?
 
@@ -59,7 +59,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
 | Repo | Description |
 |------|-------------|
 | [core](https://github.com/vauchi/core) | Crypto, protocols, data models (Rust) |
-| [relay](https://github.com/vauchi/relay) | Zero-knowledge WebSocket relay server |
+| [relay](https://github.com/vauchi/relay) | Oblivious privacy-preserving WebSocket relay server |
 | [ohttp-relay](https://github.com/vauchi/ohttp-relay) | Oblivious HTTP relay |
 | [e2e](https://github.com/vauchi/e2e) | End-to-end integration tests |
 
