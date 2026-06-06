@@ -7,10 +7,12 @@ SPDX-License-Identifier: GPL-3.0-or-later
   <code>vauchi</code>
 </h1>
 
-<h3 align="center">Privacy-focused contact sharing</h3>
+<h3 align="center">Stay in touch, for good</h3>
 
 <p align="center">
-  Exchange contact cards in person. Update your info anytime.<br>
+  Meet once, swap contact cards in person — they keep
+  themselves current, forever.<br>
+  The relationship is yours and theirs; no one else is in the room.<br>
   End-to-end encrypted. No accounts. No tracking.
 </p>
 
