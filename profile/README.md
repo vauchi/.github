@@ -27,6 +27,12 @@ SPDX-License-Identifier: GPL-3.0-or-later
   📦 Canonical source: <a href="https://gitlab.com/vauchi">GitLab</a> — GitHub is a read-only mirror
 </p>
 
+<p align="center">
+  Pull requests on GitHub are not merged. Outside contributions open on
+  GitLab soon, through merge requests from your own fork, after signing the
+  <a href="https://vauchi.app/docs/developers/cla.html">Contributor License Agreement</a>.
+</p>
+
 ---
 
 ### How it works
