@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Mattia Egloff <mattia.egloff@pm.me>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+# Org-wide default sponsor button for every vauchi repository on GitHub
+# without its own FUNDING.yml. Same channels as funding.json.
+github: vauchi
+liberapay: Vauchi
