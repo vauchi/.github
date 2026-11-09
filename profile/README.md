@@ -46,7 +46,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
 - **No accounts** — Your device is your identity
 - **No tracking** — No analytics, no telemetry, no ads
 - **No trust required** — We can't read your data, even if we wanted to
-- **Open source** — Verify our claims yourself
+- **Open source** — Verify our claims yourself: [VERIFY.md](https://gitlab.com/vauchi/core/-/blob/main/VERIFY.md)
 
 ### Tech stack
 
